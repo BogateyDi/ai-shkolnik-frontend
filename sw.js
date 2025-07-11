@@ -1,4 +1,4 @@
-const CACHE_NAME = 'ai-shkolnik-cache-v12'; // Incremented cache version
+const CACHE_NAME = 'ai-shkolnik-cache-v14'; // Incremented cache version
 const urlsToCache = [
   './',
   './index.html',
@@ -14,15 +14,15 @@ const urlsToCache = [
   './components/OptionButton.tsx',
   './components/SectionHeading.tsx',
   './components/TextInputGroup.tsx',
-  'https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp',
+  'https://cdn.tailwindcss.com',
   'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css',
   'https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap',
   'https://unpkg.com/@babel/standalone/babel.min.js',
   'https://cdn.jsdelivr.net/npm/marked/marked.min.js',
   'https://cdn.jsdelivr.net/npm/dompurify/dist/purify.min.js',
-  'https://esm.sh/react@19.1.0',
-  'https://esm.sh/react-dom@19.1.0/client',
-  'https://esm.sh/docx@9.5.1'
+  'https://esm.sh/react@18.3.1',
+  'https://esm.sh/react-dom@18.3.1/client',
+  'https://esm.sh/docx@8.5.0'
 ];
 
 self.addEventListener('install', (event) => {
