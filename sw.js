@@ -22,7 +22,6 @@ const urlsToCache = [
   'https://cdn.jsdelivr.net/npm/dompurify/dist/purify.min.js',
   'https://esm.sh/react@19.1.0',
   'https://esm.sh/react-dom@19.1.0/client',
-  'https://esm.sh/@google/genai@1.8.0',
   'https://esm.sh/docx@9.5.1'
 ];
 
