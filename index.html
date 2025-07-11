@@ -68,23 +68,20 @@
     "react": "https://esm.sh/react@19.1.0",
     "react-dom/client": "https://esm.sh/react-dom@19.1.0/client",
     "docx": "https://esm.sh/docx@9.5.1",
-    "@/App": "./App.tsx",
-    "@/components/ContentCreatorView": "./components/ContentCreatorView.tsx",
-    "@/components/HomeworkHelperView": "./components/HomeworkHelperView.tsx",
-    "@/components/PromoCodeInputView": "./components/PromoCodeInputView.tsx",
-    "@/components/PurchaseView": "./components/PurchaseView.tsx",
-    "@/components/Icon": "./components/Icon.tsx",
-    "@/components/OptionButton": "./components/OptionButton.tsx",
-    "@/components/SectionHeading": "./components/SectionHeading.tsx",
-    "@/components/TextInputGroup": "./components/TextInputGroup.tsx",
-    "@/types": "./types.ts",
     "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
     "react/": "https://esm.sh/react@^19.1.0/",
+    "dotenv/": "https://esm.sh/dotenv@^17.2.0/",
+    "express": "https://esm.sh/express@^5.1.0",
+    "cors": "https://esm.sh/cors@^2.8.5",
+    "path": "https://esm.sh/path@^0.12.7",
+    "url": "https://esm.sh/url@^0.11.4",
+    "fs/": "https://esm.sh/fs@^0.0.1-security/",
     "@google/genai": "https://esm.sh/@google/genai@^1.9.0",
     "uuid": "https://esm.sh/uuid@^11.1.0"
   }
 }
 </script>
+<link rel="stylesheet" href="/index.css">
 </head>
 <body class="text-gray-800 min-h-screen">
     <div id="root"></div>
@@ -102,5 +99,6 @@
       }
     </script>
     <script type="text/babel" data-presets="env,react,typescript" data-type="module" src="./index.tsx"></script>
+<script type="module" src="/index.tsx"></script>
 </body>
 </html>

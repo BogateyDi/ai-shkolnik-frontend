@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Icon } from '@/components/Icon';
+import { Icon } from './Icon.tsx';
 
 interface TextInputGroupProps {
   title: string;

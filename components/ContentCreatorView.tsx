@@ -1,10 +1,10 @@
 
 import React, { useState } from 'react';
-import { Icon } from '@/components/Icon';
-import { SectionHeading } from '@/components/SectionHeading';
-import { OptionButton } from '@/components/OptionButton';
-import { TextInputGroup } from '@/components/TextInputGroup';
-import type { ContentCreatorState, DocType, PrepaidCodeState } from '@/types';
+import { Icon } from './Icon.tsx';
+import { SectionHeading } from './SectionHeading.tsx';
+import { OptionButton } from './OptionButton.tsx';
+import { TextInputGroup } from './TextInputGroup.tsx';
+import type { ContentCreatorState, DocType, PrepaidCodeState } from '../types.ts';
 
 interface ContentCreatorViewProps {
   state: ContentCreatorState;

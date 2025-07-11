@@ -2,12 +2,12 @@
 import React, { useState, useCallback, useEffect, useRef } from 'react';
 import { Document, Packer, Paragraph } from 'docx';
 
-import { Icon } from '@/components/Icon';
-import { ContentCreatorView } from '@/components/ContentCreatorView';
-import { HomeworkHelperView } from '@/components/HomeworkHelperView';
-import { PromoCodeInputView } from '@/components/PromoCodeInputView';
-import { PurchaseView } from '@/components/PurchaseView';
-import type { ContentCreatorState, HomeworkHelperState, PrepaidCodeState, PurchaseState, PackageInfo } from '@/types';
+import { Icon } from './components/Icon.tsx';
+import { ContentCreatorView } from './components/ContentCreatorView.tsx';
+import { HomeworkHelperView } from './components/HomeworkHelperView.tsx';
+import { PromoCodeInputView } from './components/PromoCodeInputView.tsx';
+import { PurchaseView } from './components/PurchaseView.tsx';
+import type { ContentCreatorState, HomeworkHelperState, PrepaidCodeState, PurchaseState, PackageInfo } from './types.ts';
 
 const PROXY_URL = 'https://ai-shkolnik-proxy-bogateydi.onrender.com';
 

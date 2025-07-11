@@ -1,8 +1,8 @@
 
 import React, { useRef, useState } from 'react';
-import { Icon } from '@/components/Icon';
-import { SectionHeading } from '@/components/SectionHeading';
-import type { HomeworkHelperState, PrepaidCodeState } from '@/types';
+import { Icon } from './Icon.tsx';
+import { SectionHeading } from './SectionHeading.tsx';
+import type { HomeworkHelperState, PrepaidCodeState } from '../types.ts';
 
 interface HomeworkHelperViewProps {
   state: HomeworkHelperState;

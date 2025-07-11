@@ -1,6 +1,6 @@
 
 import React from 'react';
-import type { OptionData } from '@/types';
+import type { OptionData } from '../types.ts';
 
 interface OptionButtonProps {
   option: OptionData;

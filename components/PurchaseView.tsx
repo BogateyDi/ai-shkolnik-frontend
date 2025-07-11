@@ -1,8 +1,8 @@
 
 import React from 'react';
-import { Icon } from '@/components/Icon';
-import { SectionHeading } from '@/components/SectionHeading';
-import type { PurchaseState, PackageInfo } from '@/types';
+import { Icon } from './Icon.tsx';
+import { SectionHeading } from './SectionHeading.tsx';
+import type { PurchaseState, PackageInfo } from '../types.ts';
 
 interface PurchaseViewProps {
   purchaseState: PurchaseState;

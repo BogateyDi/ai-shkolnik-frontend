@@ -1,8 +1,8 @@
 
 import React, { useState } from 'react';
-import { Icon } from '@/components/Icon';
-import { SectionHeading } from '@/components/SectionHeading';
-import type { PrepaidCodeState } from '@/types';
+import { Icon } from './Icon.tsx';
+import { SectionHeading } from './SectionHeading.tsx';
+import type { PrepaidCodeState } from '../types.ts';
 
 interface PromoCodeInputViewProps {
   prepaidCodeState: PrepaidCodeState;
